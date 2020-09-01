@@ -39,6 +39,5 @@ function setup() {
     ellipse(330, 250, 40, 20);
     fill(black1);
     arc(240, 265, 38, 60, 2*PI, PI);    //Drawing Method 5
-    fill(pink3);
     
 }
