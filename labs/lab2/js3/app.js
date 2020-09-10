@@ -8,13 +8,12 @@ function setup() {
 }
 function draw() {
     background(0);
-
     
     xPos = xPos + xSpeed;
     yPos = yPos + ySpeed;
     if (xPos > 800) {
-        xSpeed *= -1;
-        fill("#D33DFF");
+        xSpeed *= -1; //opposite speed
+        fill("#D33DFF"); //colors also change
     }
     if (xPos < 0) {
         xSpeed *= -1;
