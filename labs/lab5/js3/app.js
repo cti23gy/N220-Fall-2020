@@ -15,9 +15,9 @@ function setup() {
     fill("#000000");
 }
 
-function draw() {
-    bouncingShape();
-    mouseShape();
+function draw() { //Main Draw function
+    bouncingShape(); //Handles the bouncing shape
+    mouseShape(); //Handles the shape controled by mouse
 }
 
 function mousePressed() { //mouse click command
