@@ -9,7 +9,7 @@ function displayName() {
     let u1 = username.value;
     let p1 = password.value;
 
-    if(u1 == u2 && p1 == p2) {
+    if(u1 == u2 && p1 == p2) { //check if correct
         dvResult.innerHTML = "Success";
     }
     else {
