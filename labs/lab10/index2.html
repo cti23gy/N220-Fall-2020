@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width", initial-scale=1.0>
+    <title>Document</title>
+    
+    <style>
+        #image1 {
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="image1"></div>
+    <div id="display">Current Color: rgb(0, 0, 0)</div>
+    <br />
+    <div>Red:</div>
+    <button onclick="buttonRed(event)" data-amount="1">+1</button> 
+    <button onclick="buttonRed(event)" data-amount="5">+5</button>
+    <button onclick="buttonRed(event)" data-amount="10">+10</button>
+    <br />
+    <div>Green:</div>
+    <button onclick="buttonGreen(event)" data-amount="1">+1</button> 
+    <button onclick="buttonGreen(event)" data-amount="5">+5</button>
+    <button onclick="buttonGreen(event)" data-amount="10">+10</button>
+    <br />
+    <div>Blue:</div>
+    <button onclick="buttonBlue(event)" data-amount="1">+1</button> 
+    <button onclick="buttonBlue(event)" data-amount="5">+5</button>
+    <button onclick="buttonBlue(event)" data-amount="10">+10</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="js2/app.js"></script>
+</body>
+</html>
